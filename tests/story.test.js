@@ -74,7 +74,7 @@ describe("server", function() {
         });       
       });
 
-      describe("Login and view posts", () => {
+      describe("Login and view stories", () => {
         beforeEach(async () => {
           await db("users").truncate;
         });
@@ -124,7 +124,7 @@ describe("server", function() {
               })
       });
 
-      describe("Login and view posts", () => {
+      describe("Login and view stories", () => {
         beforeEach(async () => {
           await db("users").truncate;
         });
