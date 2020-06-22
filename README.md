@@ -26,7 +26,7 @@
 
 ## Register
 
-Use the path [/users/register](https://) for the registration.
+Use the path [/api/auth/register](https://) for the registration.
 
 The request must include a username and password, and the result will be a created user.
 
@@ -37,7 +37,7 @@ The request must include a username and password, and the result will be a creat
 
 ## Log In
 
-Use the path [/users/login](https://) for the login.
+Use the path [/api/auth/login](https://) for the login.
 
 The request must include a username and password, and the result will be a token.
 
